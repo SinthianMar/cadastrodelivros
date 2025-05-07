@@ -11,12 +11,12 @@
 
 ##  📑   Índice
 
-- [Visão Geral](md#-vis%C3%A3o-geral)
-- [strutura do Projeto](#-estrutura-do-projeto)
+- [Visão Geral](#-visão-geral)
+- [Estrutura do Projeto](#-estrutura-do-projeto)
 - [Como Executar](#️-como-executar)
-- [Exemplo de Execução](#-exemplo-de-execução)
+- [Exemplo de Execução]()
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [Funcionalidades](#-funcionalidades)
+- [Funcionalidades]()
 - [Licença](#-licença)
 
 ---
