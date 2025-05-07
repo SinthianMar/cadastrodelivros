@@ -1,20 +1,24 @@
 # 📚 Cadastro de Livros em Java
 
-Aplicação simples em Java desenvolvida para cadastrar e exibir informações sobre livros.  
-Ideal para praticar os pilares da **Programação Orientada a Objetos (POO)**, manipulação de dados via console e uso de coleções em Java.
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sinthianmarques)
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![Project](https://img.shields.io/badge/-Project-blueviolet?style=for-the-badge)]()
+
+> Aplicação simples em Java desenvolvida para cadastrar e exibir informações sobre livros.  
+> Ideal para praticar os pilares da **Programação Orientada a Objetos (POO)**, manipulação de dados via console e uso de coleções em Java.
 
 ---
 
-## 🧭 Índice
+##  📑   Índice
 
-- [💡 Visão Geral](#-visão-geral)
-- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-- [⚙️ Como Executar](#️-como-executar)
-- [🖥️ Exemplo de Execução](#-exemplo-de-execução)
-- [🔧 Tecnologias Utilizadas](#-tecnologias-utilizadas)
-- [🎯 Funcionalidades](#-funcionalidades)
-- [🚀 Como Contribuir](#-como-contribuir)
-- [📝 Licença](#-licença)
+- [Visão Geral](#-visão-geral)
+- [strutura do Projeto](#-estrutura-do-projeto)
+- [Como Executar](#️-como-executar)
+- [Exemplo de Execução](#-exemplo-de-execução)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [Funcionalidades](#-funcionalidades)
+- [Como Contribuir](#-como-contribuir)
+- [Licença](#-licença)
 
 ---
 
@@ -23,9 +27,9 @@ Ideal para praticar os pilares da **Programação Orientada a Objetos (POO)**, m
 Este projeto foi criado com o objetivo de reforçar os conceitos de classes, objetos e métodos em Java.  
 O programa permite ao usuário:
 
-✅ Cadastrar livros com título, autor e ano de publicação  
-✅ Visualizar todos os livros cadastrados  
-✅ Navegar por um menu simples e intuitivo no terminal
+➟    Cadastrar livros com título, autor e ano de publicação  
+➟    Visualizar todos os livros cadastrados  
+➟    Navegar por um menu simples e intuitivo no terminal
 
 ---
 
@@ -33,7 +37,7 @@ O programa permite ao usuário:
 
 O projeto é composto por duas classes principais:
 
-### 📘 `Livro.java`
+### `Livro.java`
 
 Classe que representa um livro, com as seguintes características:
 
@@ -49,7 +53,7 @@ Classe que representa um livro, com as seguintes características:
 
 ---
 
-### 📋 `Cadastro.java`
+### 📝 `Cadastro.java`
 
 Classe principal com o menu de interação com o usuário.  
 Ela gerencia a entrada de dados, armazena os livros em uma lista e controla o fluxo do programa.
@@ -63,14 +67,14 @@ Ela gerencia a entrada de dados, armazena os livros em uma lista e controla o fl
 
 ## ⚙️ Como Executar
 
-### 📥 Clonando o repositório
+### Clonando o repositório
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-### 🛠️ Compilando e executando via terminal
+### Compilando e executando via terminal
 
 ```bash
 javac Cadastro.java Livro.java
@@ -81,7 +85,7 @@ Ou, se preferir, abra o projeto em uma IDE como Eclipse ou IntelliJ.
 
 ---
 
-## 🖥️ Exemplo de Execução
+## 💻  Exemplo de Execução
 
 ```
 Cadastro de Livros
@@ -107,22 +111,22 @@ Ano: 1954
 
 ## 🔧 Tecnologias Utilizadas
 
-- ☕ Java 8+
-- 🧰 `ArrayList` para armazenar os livros
-- 🎛️ `Scanner` para entrada de dados via console
+- Java 8+
+- `ArrayList` para armazenar os livros
+- `Scanner` para entrada de dados via console
 
 ---
 
-## 🎯 Funcionalidades
+## 🔒Funcionalidades
 
-- ✅ Cadastro de livros com dados básicos
-- 📖 Visualização dos livros inseridos
-- 🎯 Navegação por menu com opções simples
-- 🧼 Código limpo e didático — ideal para iniciantes
+- Cadastro de livros com dados básicos
+- Visualização dos livros inseridos
+- Navegação por menu com opções simples
+- Código limpo e didático — ideal para iniciantes
 
 ---
 
-## 🚀 Como Contribuir
+##  🚩 Como Contribuir
 
 Contribuições são super bem-vindas!  
 Se você tiver sugestões, melhorias ou correções:
@@ -139,5 +143,5 @@ Consulte `LICENSE.md` para mais informações.
 
 ---
 
-🧠 _"Grandes projetos começam com pequenos cadastros."_  
-💻 Por [Sinthian Marques ](https://github.com/seu-usuario)
+_"Grandes projetos começam com pequenos cadastros."_  
+Por [Sinthian Marques ](https://github.com/seu-usuario)
