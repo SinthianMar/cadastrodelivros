@@ -1,70 +1,100 @@
-# 📚 Cadastro de Livros
+# 📚 Cadastro de Livros em Java
 
-Este projeto é uma aplicação simples em Java para cadastrar e exibir informações sobre livros. O objetivo é permitir que o usuário cadastre livros, armazenando seus dados (título, autor e ano de publicação), e visualize os livros cadastrados.
+Aplicação simples em Java desenvolvida para cadastrar e exibir informações sobre livros.  
+Ideal para praticar os pilares da **Programação Orientada a Objetos (POO)**, manipulação de dados via console e uso de coleções em Java.
+
+---
+
+## 🧭 Índice
+
+- [💡 Visão Geral](#-visão-geral)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [⚙️ Como Executar](#️-como-executar)
+- [🖥️ Exemplo de Execução](#-exemplo-de-execução)
+- [🔧 Tecnologias Utilizadas](#-tecnologias-utilizadas)
+- [🎯 Funcionalidades](#-funcionalidades)
+- [🚀 Como Contribuir](#-como-contribuir)
+- [📝 Licença](#-licença)
+
+---
+
+## 💡 Visão Geral
+
+Este projeto foi criado com o objetivo de reforçar os conceitos de classes, objetos e métodos em Java.  
+O programa permite ao usuário:
+
+✅ Cadastrar livros com título, autor e ano de publicação  
+✅ Visualizar todos os livros cadastrados  
+✅ Navegar por um menu simples e intuitivo no terminal
+
+---
 
 ## 📂 Estrutura do Projeto
 
 O projeto é composto por duas classes principais:
 
-### 1. **Classe `Livro`**
-Representa um livro e contém as seguintes propriedades e métodos:
+### 📘 `Livro.java`
 
-- **Propriedades**:
-  - `titulo` (String): O título do livro.
-  - `autor` (String): O autor do livro.
-  - `ano` (int): O ano de publicação do livro.
+Classe que representa um livro, com as seguintes características:
 
-- **Métodos**:
-  - `Livro(String titulo, String autor, int ano)`: Construtor para inicializar o livro com título, autor e ano.
-  - `getTitulo()`: Retorna o título do livro.
-  - `getAutor()`: Retorna o autor do livro.
-  - `setAno(int ano)`: Modifica o ano de publicação do livro.
-  - `exibirInfo()`: Exibe as informações do livro no console.
+**Propriedades:**
+- `titulo` (String): O título do livro
+- `autor` (String): O autor do livro
+- `ano` (int): O ano de publicação
 
-### 2. **Classe `Cadastro`**
-Responsável pela interação com o usuário e o gerenciamento dos livros cadastrados. O fluxo de execução é controlado por um menu de opções, onde o usuário pode escolher entre cadastrar livros ou exibir os livros cadastrados.
+**Métodos:**
+- `Livro(String titulo, String autor, int ano)`: Construtor
+- `getTitulo()`, `getAutor()`, `setAno(int ano)`: Getters e setters
+- `exibirInfo()`: Exibe as informações do livro no console
 
-- **Funções**:
-  - Cadastrar livros com título, autor e ano.
-  - Exibir os livros já cadastrados.
-  - Sair do programa.
+---
+
+### 📋 `Cadastro.java`
+
+Classe principal com o menu de interação com o usuário.  
+Ela gerencia a entrada de dados, armazena os livros em uma lista e controla o fluxo do programa.
+
+**Funcionalidades:**
+- Cadastrar novos livros
+- Exibir livros cadastrados
+- Encerrar o programa
+
+---
 
 ## ⚙️ Como Executar
 
-1. **Clonando o repositório:**
+### 📥 Clonando o repositório
 
-   Clone este repositório ou baixe os arquivos do projeto para sua máquina local.
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
 
-2. **Compilando e executando:**
-   
-   Para compilar e executar o programa, use um ambiente de desenvolvimento Java, como o Eclipse ou IntelliJ, ou compile via terminal usando o comando `javac`:
+### 🛠️ Compilando e executando via terminal
 
-   ```bash
-   javac Cadastro.java Livro.java
-   java Cadastro
-   ```
+```bash
+javac Cadastro.java Livro.java
+java Cadastro
+```
 
-3. **Interação com o programa:**
+Ou, se preferir, abra o projeto em uma IDE como Eclipse ou IntelliJ.
 
-   O programa exibirá um menu com opções para o usuário. Para interagir, basta seguir as instruções no console.
+---
 
 ## 🖥️ Exemplo de Execução
 
-```bash
+```
 Cadastro de Livros
 1. Cadastrar livros
 2. Exibir livros cadastrados
 3. Sair
+
 Escolha uma Opção: 1
 Digite o título do livro: O Senhor dos Anéis
 Digite o autor do livro: J.R.R. Tolkien
 Digite o ano de publicação: 1954
 Livro cadastrado com sucesso.
 
-Cadastro de Livros
-1. Cadastrar livros
-2. Exibir livros cadastrados
-3. Sair
 Escolha uma Opção: 2
 
 Livros cadastrados:
@@ -73,21 +103,41 @@ Autor: J.R.R. Tolkien
 Ano: 1954
 ```
 
+---
+
 ## 🔧 Tecnologias Utilizadas
 
-- **Java 8+**
-- **Estruturas de Dados**: `ArrayList`, `Scanner`
+- ☕ Java 8+
+- 🧰 `ArrayList` para armazenar os livros
+- 🎛️ `Scanner` para entrada de dados via console
+
+---
 
 ## 🎯 Funcionalidades
 
-- **Cadastrar livros**: Permite inserir livros com título, autor e ano.
-- **Exibir livros cadastrados**: Exibe todos os livros cadastrados até o momento.
-- **Interface simples e funcional**: Interface de texto simples, mas eficiente.
+- ✅ Cadastro de livros com dados básicos
+- 📖 Visualização dos livros inseridos
+- 🎯 Navegação por menu com opções simples
+- 🧼 Código limpo e didático — ideal para iniciantes
+
+---
 
 ## 🚀 Como Contribuir
 
-Se você tem sugestões de melhorias ou encontrou algum erro, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*. Fico feliz em revisar contribuições!
+Contribuições são super bem-vindas!  
+Se você tiver sugestões, melhorias ou correções:
+
+1. Crie uma [issue](https://github.com/seu-usuario/seu-repositorio/issues)
+2. Faça um fork e envie um Pull Request
+
+---
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Distribuído sob a Licença MIT.  
+Consulte `LICENSE.md` para mais informações.
+
+---
+
+🧠 _"Grandes projetos começam com pequenos cadastros."_  
+💻 Por [Sinthian Marques ](https://github.com/seu-usuario)
