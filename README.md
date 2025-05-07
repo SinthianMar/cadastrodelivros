@@ -11,13 +11,12 @@
 
 ##  📑   Índice
 
-- [Visão Geral](#-visão-geral)
+- [Visão Geral](md#-vis%C3%A3o-geral)
 - [strutura do Projeto](#-estrutura-do-projeto)
 - [Como Executar](#️-como-executar)
 - [Exemplo de Execução](#-exemplo-de-execução)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Funcionalidades](#-funcionalidades)
-- [Como Contribuir](#-como-contribuir)
 - [Licença](#-licença)
 
 ---
@@ -122,17 +121,7 @@ Ano: 1954
 - Cadastro de livros com dados básicos
 - Visualização dos livros inseridos
 - Navegação por menu com opções simples
-- Código limpo e didático — ideal para iniciantes
-
----
-
-##  🚩 Como Contribuir
-
-Contribuições são super bem-vindas!  
-Se você tiver sugestões, melhorias ou correções:
-
-1. Crie uma [issue](https://github.com/seu-usuario/seu-repositorio/issues)
-2. Faça um fork e envie um Pull Request
+- Código limpo e didático ➞ ideal para iniciantes
 
 ---
 
@@ -143,5 +132,5 @@ Consulte `LICENSE.md` para mais informações.
 
 ---
 
-_"Grandes projetos começam com pequenos cadastros."_  
-Por [Sinthian Marques ](https://github.com/seu-usuario)
+> _"Grandes projetos começam com pequenos cadastros."_  
+Por [Sinthian Marques ](https://github.com/SinthianMar)
