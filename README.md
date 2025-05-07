@@ -133,4 +133,5 @@ Consulte `LICENSE.md` para mais informações.
 ---
 
 > _"Grandes projetos começam com pequenos cadastros."_  
-Por [Sinthian Marques ](https://github.com/SinthianMar)
+Por [Sinthian Marques ](https://github.com/SinthianMar) | [LinkedIn](https://www.linkedin.com/in/sinthianmarques) | sinthianmarquesjp@gmail.com
+
